@@ -1,0 +1,39 @@
+.icon__wrapper {
+  padding-top: 25px;
+
+  .icon__img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.content__wrapper {
+  font-size: 24px;
+  color: #222831;
+
+  .city__info {
+    font-weight: bold;
+    padding: 10px;
+
+    .city__info--italic {
+      color: #20003D;
+      font-style: italic;
+    }
+  }
+
+  .weather__info {
+    padding: 10px;
+
+    .weather__info--bg {
+      padding: 10px 20px;
+      background: #20003D;
+      color: #fff;
+      border-radius: 20px;
+    }
+  }
+}
+
+.weather__info--error {
+  font-size: 24px;
+  color: #222831;
+}

@@ -1,0 +1,50 @@
+.input__header {
+  font-size: 3rem;
+  color: #222831;
+
+  &::after {
+    content: '';
+    border: 1px solid #222831;
+    width: 40%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+
+.input__text {
+  max-width: 70%;
+  font-size: 1.2rem;
+  vertical-align: bottom;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid #00adb5;
+  transition: 0.7s;
+
+  &:focus {
+    outline: none;
+    border-color: #222831;
+
+  }
+}
+
+.input__btn {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  height: 46px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: #00adb5;
+  color: #fff;
+  transition: 0.7s;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: #222831;
+  }
+}
