@@ -4,16 +4,19 @@ import "./Form.scss";
 const Form = props => {
   return (
     <>
-      <h1 className="input__header">Search Weather in Your City</h1>
-      <form onSubmit={props.submit}>
+      <form className="form" onSubmit={props.submit}>
+        <label className="form__label" htmlFor="input">
+          Search Weather in Your City
+        </label>
         <input
           onChange={props.search}
           value={props.value}
-          className="input__text"
+          id="input"
+          className="form__input"
           type="text"
           placeholder="Insert city name"
         />
-        <button className="input__btn">Search</button>
+        <button className="form__btn">Search</button>
       </form>
     </>
   );

@@ -33,39 +33,39 @@ const Result = props => {
             alt=""
           />
         </div>
-        <div className="content__wrapper">
-          <p className="city__info">
+        <ul className="weather__list">
+          <li className="list__item list__item--bold">
             {name}, {country}
-            <span className="city__info--italic"> {weather}</span>
-          </p>
-          <p className="weather__info">
-            <span className="weather__info--bg">{tempFloor} &#176;C</span>
-          </p>
-          <p className="weather__info">sunrise {sunriseTime}</p>
-          <p className="weather__info">sunset {sunsetTime}</p>
-          <p className="weather__info">pressure {pressure} hpa</p>
-          <p className="weather__info">humidity {humidity} %</p>
-          <p className="weather__info">wind {wind} m/s</p>
-          <p className="weather__info">
+            <span className="list__item--italic"> {weather}</span>
+          </li>
+          <li className="list__item">
+            <span className="list__item--bg">{tempFloor} &#176;C</span>
+          </li>
+          <li className="list__item">sunrise {sunriseTime}</li>
+          <li className="list__item">sunset {sunsetTime}</li>
+          <li className="list__item">pressure {pressure} hpa</li>
+          <li className="list__item">humidity {humidity} %</li>
+          <li className="list__item">wind {wind} m/s</li>
+          <li className="list__item">
             coords
             <a
               href={`https://openweathermap.org/weathermap?zoom=12&lat=${
                 coords.lat
               }&lon=${coords.lon}`}
-              className="coord__info"
+              className="item__link"
               target="__blank"
               aria-label="Map link to city"
             >{` ${coords.lat} , ${coords.lon}`}</a>
-          </p>
-        </div>
+          </li>
+        </ul>
       </>
     );
   }
 
   return (
-    <div>
+    <div className="content__wrapper">
       {error ? (
-        <p className="weather__info--error">{`We cannot find ${name}`}</p>
+        <p className="error">{`We can't find ${name} in database`}</p>
       ) : (
         content
       )}

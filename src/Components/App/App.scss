@@ -1,12 +1,10 @@
 .main {
   background: url('../../images/background.jpg') no-repeat center;
   background-size: cover;
-  min-height: 100vh;
-  overflow: hidden;
 
   .container {
-    max-width: 80vw;
+    max-width: 800px;
+    min-height: 100vh;
     margin: 0 auto;
-    text-align: center;
   }
 }
