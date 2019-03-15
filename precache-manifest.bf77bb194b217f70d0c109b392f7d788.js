@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/Weather-API-React/static/js/runtime~main.3c40ef82.js"
   },
   {
-    "revision": "970fd32606248cb2a905",
-    "url": "/Weather-API-React/static/js/main.970fd326.chunk.js"
+    "revision": "b836183f8bedd6527cd9",
+    "url": "/Weather-API-React/static/js/main.b836183f.chunk.js"
   },
   {
     "revision": "4a34e45d34cafb7623bd",
     "url": "/Weather-API-React/static/js/1.4a34e45d.chunk.js"
   },
   {
-    "revision": "970fd32606248cb2a905",
-    "url": "/Weather-API-React/static/css/main.58e025a9.chunk.css"
+    "revision": "b836183f8bedd6527cd9",
+    "url": "/Weather-API-React/static/css/main.ad0fd5a3.chunk.css"
   },
   {
-    "revision": "6c54542bd618deebc1d48eaf810dadb1",
+    "revision": "623d1f864e5b9ff71fed27ce3c813cfd",
     "url": "/Weather-API-React/index.html"
   }
 ];

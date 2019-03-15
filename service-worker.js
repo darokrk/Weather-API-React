@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Weather-API-React/precache-manifest.f8ddc6187f44c7d462f711b39f6c3d5e.js"
+  "/Weather-API-React/precache-manifest.bf77bb194b217f70d0c109b392f7d788.js"
 );
 
 workbox.clientsClaim();
