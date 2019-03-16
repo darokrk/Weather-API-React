@@ -15,11 +15,17 @@
   border-bottom: 2px solid #222831;
 }
 
+.input__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form__input {
   max-width: 250px;
   width: 60%;
+  height: 100%;
   font-size: 1rem;
-  vertical-align: bottom;
   padding: 10px 0 10px 10px;
   border-radius: 10px 0 0 10px;
   border: 2px solid #00adb5;
@@ -32,6 +38,9 @@
 .form__btn {
   color: #fff;
   background: #00adb5;
+  max-width: 80px;
+  height: 100%;
+  width: 100%;
   padding: 0 10px;
   border: none;
   border-radius: 0 10px 10px 0;
